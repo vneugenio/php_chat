@@ -1,0 +1,68 @@
+@font-face {
+    src: url("../fonts/whitney.otf") format("opentype");
+    font-family: "whitney";
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "whitney";
+    font-size: 18px;
+}
+
+body {
+    background-color: silver;
+}
+
+#container {
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+    width: 40%;
+}
+
+input[type="text"], button, textarea {
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+textarea {
+    height: 120px;
+}
+
+#chat_data {
+    border: 1px solid silver;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+.name {
+    color: green;
+    font-weight: 600;
+    /* align-self: flex-start; */
+}
+
+.message {
+    color: #000;
+    margin-left: 5px;
+}
+
+.timestamp {
+    color: #000;
+    font-size: 14px;
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+.message_details {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
